@@ -28,7 +28,7 @@ public:
 private:
     std::deque<T> _queue;
     std::condition_variable _condVar;
-    std::mutex _mtx;
+    std::mutex _msgMtx;
     
 };
 
